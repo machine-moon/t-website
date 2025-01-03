@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Projects component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="mywork"
+    id="projects"
+  >
+    <div
+      class="mywork-title"
+    >
+      <h1>
+        My Projects
+      </h1>
+    </div>
+    <div
+      class="mywork-container"
+    >
+      <div
+        class="project-card"
+      >
+        <img
+          alt="TDocker"
+          src="test-file-stub"
+        />
+        <div
+          class="project-overlay"
+        >
+          <h2>
+            TDocker
+          </h2>
+          <p>
+            A streamlined suite of Docker Compose setups for easy application deployment on an NGINX Network
+          </p>
+          <a
+            href="https://github.com/machine-moon/tdocker"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              View Project
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        class="project-card"
+      >
+        <img
+          alt="TSuite"
+          src="test-file-stub"
+        />
+        <div
+          class="project-overlay"
+        >
+          <h2>
+            TSuite
+          </h2>
+          <p>
+            A collection of workflow tools and scripts designed to automate tasks and boost productivity
+          </p>
+          <a
+            href="https://github.com/machine-moon/tsuite"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              View Project
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        class="project-card"
+      >
+        <img
+          alt="Markov Decision Process Simulator"
+          src="test-file-stub"
+        />
+        <div
+          class="project-overlay"
+        >
+          <h2>
+            Markov Decision Process Simulator
+          </h2>
+          <p>
+            A very fast simulator for MDPs using JAX, featuring JIT compilation for rapid prototyping and reinforcement learning with a ready-to-use DQN algorithm
+          </p>
+          <a
+            href="https://github.com/machine-moon/mdp-jax"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              View Project
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        class="project-card"
+      >
+        <img
+          alt="Scrabble"
+          src="test-file-stub"
+        />
+        <div
+          class="project-overlay"
+        >
+          <h2>
+            Scrabble
+          </h2>
+          <p>
+            A Java-based Scrabble game utilizing MVC architecture, offering interactive gameplay with a GUI and Bot AI
+          </p>
+          <a
+            href="https://github.com/machine-moon/project4"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              View Project
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        class="project-card"
+      >
+        <img
+          alt="Embedded Microcontroller Projects"
+          src="test-file-stub"
+        />
+        <div
+          class="project-overlay"
+        >
+          <h2>
+            Embedded Microcontroller Projects
+          </h2>
+          <p>
+            Showcasing expertise in embedded systems, focusing on interrupts, NVIC, Scheduling, GPIO, timers, and state machines. Using MSVP32 AND rasperry pi
+          </p>
+          <a
+            href="https://github.com/machine-moon/project5"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              View Project
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        class="project-card"
+      >
+        <img
+          alt="Personal Portfolio Website"
+          src="test-file-stub"
+        />
+        <div
+          class="project-overlay"
+        >
+          <h2>
+            Personal Portfolio Website
+          </h2>
+          <p>
+            A personal portfolio website using React.js, html, css, and javascript, and deployed it using GitHub Pages
+          </p>
+          <a
+            href="https://github.com/machine-moon/project6"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              View Project
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mywork-showmore"
+    >
+      <a
+        href="https://github.com/machine-moon?tab=repositories"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <p>
+          More Projects
+        </p>
+      </a>
+      <div
+        class="arrow-outward-icon"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="ArrowForwardIosIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

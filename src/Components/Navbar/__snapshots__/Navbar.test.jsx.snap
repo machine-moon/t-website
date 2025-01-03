@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Navbar component correctly 1`] = `
+<DocumentFragment>
+  <nav
+    class="nav-container"
+  >
+    <div
+      class="navbar"
+    >
+      <img
+        alt="Open Menu"
+        src="test-file-stub"
+      />
+      <ul
+        class="nav-menu"
+        style="right: -160px;"
+      >
+        <img
+          alt="Close Menu"
+          src="test-file-stub"
+        />
+        <li>
+          <a
+            class="anchor-link"
+            href="#home"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            class="anchor-link"
+            href="#about"
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            class="anchor-link"
+            href="#projects"
+          >
+            Projects
+          </a>
+        </li>
+        <li>
+          <a
+            class="anchor-link"
+            href="#work"
+          >
+            Work
+          </a>
+        </li>
+        <li>
+          <a
+            class="anchor-link"
+            href="#contact"
+          >
+            Contact
+          </a>
+        </li>
+        <li>
+          <a
+            class="anchor-link"
+            download=""
+            href="/Tarek_Ibrahim_Resume.pdf"
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

@@ -1,7 +1,7 @@
-import './About.css'
+import './About.css';
+
 const About = () => {
     return (
-
         <div id='about' className='about'>
             <div className='about-title'>
                 <h1>About Me</h1>
@@ -18,47 +18,36 @@ const About = () => {
                         </p>
                     </div>
                     <div className='about-skills'>
-                        <div className='about-skill'>
-                            <div className='skill-text'><p>Python</p></div>
-                            <hr style={{ width: "100%" }} />
-                        </div>
-                        <div className='about-skill'>
-                            <div className='skill-text'><p>C</p></div>
-                            <hr style={{ width: "100%" }} />
-                        </div>
-                        <div className='about-skill'>
-                            <div className='skill-text'><p>C++</p></div>
-                            <hr style={{ width: "80%" }} />
-                        </div>
-                        <div className='about-skill'>
-                            <div className='skill-text'><p>Java</p></div>
-                            <hr style={{ width: "70%" }} />
-                        </div>
-                        <div className='about-skill'>
-                            <div className='skill-text'><p>JavaScript</p></div>
-                            <hr style={{ width: "50%" }} />
-                        </div>
+                        {[
+                            { name: 'Python', width: '100%' },
+                            { name: 'C', width: '100%' },
+                            { name: 'C++', width: '80%' },
+                            { name: 'Java', width: '70%' },
+                            { name: 'JavaScript', width: '50%' },
+                        ].map((skill, index) => (
+                            <div key={index} className='about-skill'>
+                                <div className='skill-text'><p>{skill.name}</p></div>
+                                <hr style={{ width: skill.width }} />
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
-            <div className="about-acheivments">
-                <div className="about-achievement">
-                    <h1>5+</h1>
-                    <p>YEARS PROGRAMMING EXPERIENCE</p>
-                </div>
-                <hr />
-                <div className="about-achievement">
-                    <h1>50+</h1>
-                    <p>PROJECTS</p>
-                </div>
-                <hr />
-                <div className="about-achievement">
-                    <h1>1+</h1>
-                    <p>YEARS WORK EXPERIENCE</p>
-                </div>
+            <div className="about-achievements">
+                {[
+                    { count: '5+', label: 'YEARS PROGRAMMING EXPERIENCE' },
+                    { count: '50+', label: 'PROJECTS' },
+                    { count: '1+', label: 'YEARS WORK EXPERIENCE' },
+                ].map((achievement, index) => (
+                    <div key={index} className="about-achievement">
+                        <h1>{achievement.count}</h1>
+                        <p>{achievement.label}</p>
+                        {index < 2 && <hr />}
+                    </div>
+                ))}
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default About
+export default About;
