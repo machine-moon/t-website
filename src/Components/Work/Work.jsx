@@ -1,6 +1,5 @@
 import './Work.css'
 
-import React from 'react'
 import work1_img from '../../assets/work1.png'
 import work2_img from '../../assets/work2.jpg'
 import work3_img from '../../assets/work3.png'
@@ -14,7 +13,7 @@ const Work = () => {
       <div className="work-container">
         {WorkData.map((work, index) => {
           return (
-            <div className="project-card">
+            <div key={index} className="project-card">
               <img key={index} src={work.w_img} alt={work.w_name} />
               <div className="project-overlay">
                 <h2>{work.w_name}</h2>

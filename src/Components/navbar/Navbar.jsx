@@ -1,47 +1,34 @@
-import React from 'react' // Import the main React library
-import './Navbar.css' // Import the CSS file
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import menu_open from '../../assets/menu_open.png'
-import menu_close from '../../assets/menu_close.png'
-const Navbar = () => {
+import { useState, useRef } from 'react';
+import './Navbar.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import menuOpenIcon from '../../assets/menu_open.png';
+import menuCloseIcon from '../../assets/menu_close.png';
 
-  const [menu, setMenu] = React.useState(false);
-  const menuRef = React.useRef();
+const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef();
 
   const toggleMenu = () => {
-    setMenu(!menu);
-    if (!menu) {
-      menuRef.current.style.right = "0"; // Close the menu if it's open
-    } else {
-      menuRef.current.style.right = "-160px"; // Open the menu if it's closed
-    }
-  }
+    setMenuOpen(!menuOpen);
+    menuRef.current.style.right = menuOpen ? "-160px" : "0";
+  };
 
   return (
     <nav className='nav-container'>
       <div className="navbar">
-        <img src={menu_open} onClick={toggleMenu} />
-        <ul className='nav-menu' style={{ right: menu ? "0" : "-160px" }}>
-          <img src={menu_close} onClick={toggleMenu} ref={menuRef} />
-          <li>
-            <AnchorLink className='anchor-link' offset={50} href="#home" onClick={() => setMenu(false)}>Home</AnchorLink>
-          </li>
-          <li>
-            <AnchorLink className='anchor-link' offset={50} href="#about" onClick={() => setMenu(false)}>About</AnchorLink>
-          </li>
-          <li>
-            <AnchorLink className='anchor-link' offset={50} href="#projects" onClick={() => setMenu(false)}>Projects</AnchorLink>
-          </li>
-          <li>
-            <AnchorLink className='anchor-link' offset={50} href="#work" onClick={() => setMenu(false)}>Experience</AnchorLink>
-          </li>
+        <img src={menuOpenIcon} onClick={toggleMenu} alt="Open Menu" />
+        <ul className='nav-menu' ref={menuRef} style={{ right: menuOpen ? "0" : "-160px" }}>
+          <img src={menuCloseIcon} onClick={toggleMenu} alt="Close Menu" />
+          {['home', 'about', 'projects', 'work', 'contact'].map((section) => (
+            <li key={section}>
+              <AnchorLink className='anchor-link' offset={50} href={`#${section}`} onClick={() => setMenuOpen(false)}>
+                {section.charAt(0).toUpperCase() + section.slice(1)}
+              </AnchorLink>
+            </li>
+          ))}
           <li>
             <a href='/Tarek_Ibrahim_Resume.pdf' className='anchor-link' download>Resume</a>
           </li>
-          <li>
-            <AnchorLink className='anchor-link' offset={50} href="#contact" onClick={() => setMenu(false)}>Contact</AnchorLink>
-          </li>
-
         </ul>
       </div>
     </nav>

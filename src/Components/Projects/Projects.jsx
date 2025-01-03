@@ -1,12 +1,10 @@
 import './Projects.css'
 
-import React from 'react'
-import project1_img from '../../assets/project1.png'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-
-import project4_img from '../../assets/project4.jpg'
-import project3_img from '../../assets/project3.png'
+import project1_img from '../../assets/project1.png'
 import project2_img from '../../assets/project2.png'
+import project3_img from '../../assets/project3.png'
+import project4_img from '../../assets/project4.jpg'
 import project5_img from '../../assets/project5.jpg'
 import project6_img from '../../assets/project6.jpg'
 
@@ -19,8 +17,8 @@ const Projects = () => {
       <div className="mywork-container">
         {ProjectData.map((work, index) => {
           return (
-            <div className="project-card">
-              <img key={index} src={work.w_img} alt={work.w_name} />
+            <div key={index} className="project-card">
+              <img src={work.w_img} alt={work.w_name} />
               <div className="project-overlay">
                 <h2>{work.w_name}</h2>
                 <p>{work.w_description}</p>

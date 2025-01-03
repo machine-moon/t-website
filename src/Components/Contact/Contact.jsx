@@ -7,7 +7,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const Contact = () => {
 
-  const [result, setResult] = React.useState("");
+  const [, setResult] = React.useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();

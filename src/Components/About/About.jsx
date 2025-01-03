@@ -1,6 +1,4 @@
-import React from 'react'
 import './About.css'
-import menu_close from '../../assets/menu_close.png'
 const About = () => {
     return (
 
@@ -12,7 +10,7 @@ const About = () => {
                 <div className='about-right'>
                     <div className='about-para'>
                         <p>
-                            Hello! I'm Tarek Ibrahim, a dedicated and passionate software developer based in Ottawa, Ontario.
+                            Hello! I&apos;m Tarek Ibrahim, a dedicated and passionate software developer based in Ottawa, Ontario.
                             Currently pursuing a degree in Software Engineering with Co-op at Carleton University,
                         </p>
                         <p>

@@ -1,4 +1,3 @@
-import React from 'react';
 import './Hero.css';
 import Typewriter from 'typewriter-effect';
 import Icons from '../Icons/Icons';
