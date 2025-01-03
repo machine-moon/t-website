@@ -4,7 +4,7 @@
   "private": true,
   "description": "A frontend project for showcasing a portfolio website.",
   "type": "module",
-  "homepage": "https://machine-moon.github.io/machine-moon.github.io",
+  "homepage": "https://t-ibrahimm.github.io/t-ibrahimm.github.io",
   "scripts": {
     "dev": "vite",
     "predeploy": "yarn build",
@@ -52,10 +52,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/machine-moon/machine-moon.github.io.git"
+    "url": "https://github.com/t-ibrahimm/t-ibrahimm.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/machine-moon/machine-moon.github.io/issues"
+    "url": "https://github.com/t-ibrahimm/t-ibrahimm.github.io/issues"
   },
   "keywords": [
     "portfolio",
