@@ -1,5 +1,5 @@
-import './Footer.css';
-import Icons from '../Icons/Icons';
+import "./Footer.css";
+import Icons from "../Icons/Icons";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
