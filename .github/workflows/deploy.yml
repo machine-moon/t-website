@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: "18"
 
       # Install dependencies
       - name: Install dependencies
@@ -26,6 +26,10 @@ jobs:
       # Build project
       - name: Build
         run: yarn build
+
+      # Test project
+      - name: Test
+        run: yarn test
 
       # Deploy to target repo
       - name: Deploy
