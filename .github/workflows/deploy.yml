@@ -1,0 +1,38 @@
+name: Deploy to tibrahimm.github.io
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Check out source code
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Set up Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      # Install dependencies
+      - name: Install dependencies
+        run: yarn install
+
+      # Build project
+      - name: Build
+        run: yarn build
+
+      # Deploy to target repo
+      - name: Deploy
+        env:
+          # You'll need to add this secret in your repo settings
+          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          npx gh-pages -d dist -r https://${GITHUB_TOKEN}@github.com/t-ibrahimm/t-ibrahimm.github.io.git
