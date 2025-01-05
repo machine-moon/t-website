@@ -133,6 +133,7 @@
   .contact-section {
     flex-direction: column;
   }
+
   .contact-left h1 {
     font-size: 45px;
   }
@@ -181,13 +182,14 @@
   .contact-section {
     flex-direction: column;
   }
+
   .contact-left h1 {
     font-size: 30px;
   }
 
   .contact-left p {
     font-size: 18px;
-    width: 100px; /* Ensures the paragraph does not exceed the width of its container */
+    width: 100px;
   }
 
   .contact-detail {

@@ -8,7 +8,6 @@
 
 .content {
   max-width: 600px;
-  /* Adjust the width as needed */
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
@@ -16,7 +15,6 @@
 
 h1 {
   justify-content: center;
-  /* Center the icons horizontally */
   margin: 0;
   font-size: 50px;
   color: white;
@@ -24,42 +22,28 @@ h1 {
 
 p {
   justify-content: center;
-  /* Center the icons horizontally */
   margin: 20px 0;
   color: white;
   font-size: 20px;
 }
 
-/* Container for the social icons */
 .social-icons {
   display: flex;
-  /* Align the icons in a row */
   gap: 15px;
-  /* Space between the icons */
   padding: 10px;
-  /* Padding around the icons */
   justify-content: center;
-  /* Center the icons horizontally */
   margin-left: 0px;
-  /* Move the container left by 10 pixels (adjust as needed) */
 }
 
-/* Style for individual icons */
 .social-icons svg {
   width: 50px;
-  /* Set the width of the icons */
   height: 50px;
-  /* Set the height of the icons */
   fill: #e4405f;
-  /* Default color for the icons */
   transition: fill 0.2s ease;
-  /* Smooth transition for hover effect */
 }
 
-/* Hover effect for the icons */
 .social-icons svg:hover {
   fill: #fff;
-  /* Change color on hover (example: LinkedIn blue) */
   scale: 1.1;
 }
 

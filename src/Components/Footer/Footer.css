@@ -28,6 +28,7 @@
   .footer {
     padding: 20px 0;
   }
+
   .footer-bottom {
     flex-direction: column;
     align-items: center;
@@ -35,18 +36,17 @@
     gap: 20px;
   }
 
-  /* Container for the social icons */
   .social-icons {
-    display: flex; /* Align the icons in a row */
-    gap: 15px; /* Space between the icons */
-    padding: 10px; /* Padding around the icons */
-    justify-content: center; /* Center the icons horizontally */
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    justify-content: center;
     margin-left: 0px;
   }
 
   /* Style for individual icons */
   .social-icons svg {
-    width: 40px; /* Set the width of the icons */
-    height: 40px; /* Set the height of the icons */
+    width: 40px;
+    height: 40px;
   }
 }

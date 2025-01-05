@@ -1,6 +1,5 @@
 .skill-text {
   width: 60px;
-  /* Set a fixed width for the text container */
   text-align: left;
 }
 
@@ -58,7 +57,6 @@
 
 .about-skill hr {
   margin-left: 10px;
-  /* Adjust the margin as needed */
   outline: none;
   border: none;
   width: 50%;

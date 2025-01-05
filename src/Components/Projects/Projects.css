@@ -50,14 +50,14 @@
 }
 
 .project-overlay h2 {
-  margin: 0 0 20px; /* Add bottom margin for spacing */
+  margin: 0 0 20px; 
   font-size: 24px;
   font-weight: 600;
   color: #ffffff;
 }
 
 .project-overlay p {
-  margin: 0 0 30px; /* Add bottom margin for spacing */
+  margin: 0 0 30px;
   font-size: 16px;
   font-weight: 600;
   color: #cccccc;
