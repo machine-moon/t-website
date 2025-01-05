@@ -3,6 +3,7 @@ import "./Navbar.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menuOpenIcon from "../../assets/menu_open.png";
 import menuCloseIcon from "../../assets/menu_close.png";
+import Resume from "../Resume/Resume";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -36,13 +37,7 @@ const Navbar = () => {
             </li>
           ))}
           <li>
-            <a
-              href="/Tarek_Ibrahim_Resume.pdf"
-              className="anchor-link"
-              download
-            >
-              Resume
-            </a>
+            <Resume />
           </li>
         </ul>
       </div>

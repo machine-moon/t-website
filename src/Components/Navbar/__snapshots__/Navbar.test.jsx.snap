@@ -63,8 +63,9 @@ exports[`renders Navbar component correctly 1`] = `
         <li>
           <a
             class="anchor-link"
-            download=""
             href="/Tarek_Ibrahim_Resume.pdf"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             Resume
           </a>

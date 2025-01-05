@@ -1,16 +1,28 @@
 .nav-container {
-  width: 100%; /* width of the nav bar */
-  background: transparent; /* background color */
-  color: white; /* text color */
-  padding: 4px 0px; /* padding */
-  position: fixed; /* nav bar will be fixed to the top */
-  top: 0; /* nav bar will be fixed to the top at 0 */
-  left: 0; /* nav bar will be fixed to the left at 0 */
-  display: flex; /* displays content side by side */
-  align-items: right; /* aligns content vertically */
-  justify-content: right; /* aligns content horizontally */
-  z-index: 10; /* z-index is used to stack elements on top of each other */
-  padding-top: 20px; /* padding */
+  width: 100%;
+  /* width of the nav bar */
+  background: transparent;
+  /* background color */
+  color: white;
+  /* text color */
+  padding: 4px 0px;
+  /* padding */
+  position: fixed;
+  /* nav bar will be fixed to the top */
+  top: 0;
+  /* nav bar will be fixed to the top at 0 */
+  left: 0;
+  /* nav bar will be fixed to the left at 0 */
+  display: flex;
+  /* displays content side by side */
+  align-items: right;
+  /* aligns content vertically */
+  justify-content: right;
+  /* aligns content horizontally */
+  z-index: 10;
+  /* z-index is used to stack elements on top of each other */
+  padding-top: 20px;
+  /* padding */
 }
 
 .navbar ul {
@@ -18,18 +30,23 @@
 }
 
 .navbar ul li {
-  display: inline-block; /* displays content side by side*/
-  margin: 20px 15px; /* margin */
+  display: inline-block;
+  /* displays content side by side*/
+  margin: 20px 15px;
+  /* margin */
   font-size: 20px;
   transition: background-color 0.2s;
-  padding: 8px 10px; /* Adjust padding for larger background area */
-  box-sizing: border-box; /* Ensures padding and border are included in the width and height */
-  cursor: pointer; /* Changes cursor to pointer on hover */
+  padding: 8px 10px;
+  /* Adjust padding for larger background area */
+  box-sizing: border-box;
+  /* Ensures padding and border are included in the width and height */
+  cursor: pointer;
+  /* Changes cursor to pointer on hover */
 }
 
 .navbar ul li:hover {
   /* color: #e4405f; color on hover */
-  background-color: #e4405f; /* background color on hover */
+  background-color: #e4405f;
   transition: 0.2s;
 }
 
@@ -62,7 +79,7 @@
     transition: 0.2s;
     z-index: 10;
     background-color: black;
-    list-style-type: none; /* Remove default list styles */
+    list-style-type: none;
   }
 
   .nav-menu li {

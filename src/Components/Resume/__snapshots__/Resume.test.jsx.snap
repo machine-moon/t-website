@@ -2,8 +2,13 @@
 
 exports[`renders Resume component correctly 1`] = `
 <DocumentFragment>
-  <div>
+  <a
+    class="anchor-link"
+    href="/Tarek_Ibrahim_Resume.pdf"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
     Resume
-  </div>
+  </a>
 </DocumentFragment>
 `;
