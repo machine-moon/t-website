@@ -20,14 +20,65 @@ exports[`renders Projects component correctly 1`] = `
         class="project-card"
       >
         <img
-          alt="TDocker"
+          alt="Operating System Simulators"
           src="test-file-stub"
         />
         <div
           class="project-overlay"
         >
           <h2>
-            TDocker
+            Operating System Simulators
+          </h2>
+          <p>
+            A collection of simulators demonstrating process management, scheduling, and system calls.
+          </p>
+          <a
+            href="https://github.com/machine-moon/syscall-simulator"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              Syscall Simulator
+            </button>
+          </a>
+          <a
+            href="https://github.com/machine-moon/process-simulator"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              Process Simulator
+            </button>
+          </a>
+          <a
+            href="https://github.com/machine-moon/scheduler-simulator"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              Scheduler Simulator
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        class="project-card"
+      >
+        <img
+          alt="T-Docker"
+          src="test-file-stub"
+        />
+        <div
+          class="project-overlay"
+        >
+          <h2>
+            T-Docker
           </h2>
           <p>
             A streamlined suite of Docker Compose setups for easy application deployment on an NGINX Network
@@ -40,7 +91,18 @@ exports[`renders Projects component correctly 1`] = `
             <button
               class="project-button"
             >
-              View Project
+              GitHub
+            </button>
+          </a>
+          <a
+            href="https://github.com/machine-moon/tdocker"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              Demo (soon)
             </button>
           </a>
         </div>
@@ -49,14 +111,14 @@ exports[`renders Projects component correctly 1`] = `
         class="project-card"
       >
         <img
-          alt="TSuite"
+          alt="T-Suite"
           src="test-file-stub"
         />
         <div
           class="project-overlay"
         >
           <h2>
-            TSuite
+            T-Suite
           </h2>
           <p>
             A collection of workflow tools and scripts designed to automate tasks and boost productivity
@@ -69,7 +131,7 @@ exports[`renders Projects component correctly 1`] = `
             <button
               class="project-button"
             >
-              View Project
+              GitHub
             </button>
           </a>
         </div>
@@ -98,7 +160,87 @@ exports[`renders Projects component correctly 1`] = `
             <button
               class="project-button"
             >
-              View Project
+              GitHub
+            </button>
+          </a>
+          <a
+            href="https://github.com/machine-moon/mlos"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              Related Work
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        class="project-card"
+      >
+        <img
+          alt="Inter-Process Communication"
+          src="test-file-stub"
+        />
+        <div
+          class="project-overlay"
+        >
+          <h2>
+            Inter-Process Communication
+          </h2>
+          <p>
+            Demonstrates concurrent task processing using semaphores and shared memory in Unix. Includes C programs simulating Teaching Assistants marking exams with synchronization mechanisms.
+          </p>
+          <a
+            href="https://github.com/machine-moon/classical-concurrency"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              Classical Concurrency
+            </button>
+          </a>
+          <a
+            href="https://github.com/machine-moon/ipc"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              IPC
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        class="project-card"
+      >
+        <img
+          alt="T-Embedded"
+          src="test-file-stub"
+        />
+        <div
+          class="project-overlay"
+        >
+          <h2>
+            T-Embedded
+          </h2>
+          <p>
+            This project contains my embedded work using the MSP432 microcontroller from Texas Instruments. Topics covered include ADC, GPIO, NVIC, UART, interrupts, timers, and concurrency using QNX.
+          </p>
+          <a
+            href="https://github.com/machine-moon/t-embedded"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button
+              class="project-button"
+            >
+              GitHub
             </button>
           </a>
         </div>
@@ -117,46 +259,17 @@ exports[`renders Projects component correctly 1`] = `
             Scrabble
           </h2>
           <p>
-            A Java-based Scrabble game utilizing MVC architecture, offering interactive gameplay with a GUI and Bot AI
+            A collaborative Java-based Scrabble game utilizing MVC architecture. Features include AI players, custom board configurations, and a timer mode.
           </p>
           <a
-            href="https://github.com/machine-moon/project4"
+            href="https://github.com/machine-moon/scrabble"
             rel="noopener noreferrer"
             target="_blank"
           >
             <button
               class="project-button"
             >
-              View Project
-            </button>
-          </a>
-        </div>
-      </div>
-      <div
-        class="project-card"
-      >
-        <img
-          alt="Embedded Microcontroller Projects"
-          src="test-file-stub"
-        />
-        <div
-          class="project-overlay"
-        >
-          <h2>
-            Embedded Microcontroller Projects
-          </h2>
-          <p>
-            Showcasing expertise in embedded systems, focusing on interrupts, NVIC, Scheduling, GPIO, timers, and state machines. Using MSVP32 AND rasperry pi
-          </p>
-          <a
-            href="https://github.com/machine-moon/project5"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <button
-              class="project-button"
-            >
-              View Project
+              GitHub
             </button>
           </a>
         </div>
@@ -178,14 +291,14 @@ exports[`renders Projects component correctly 1`] = `
             A personal portfolio website using React.js, html, css, and javascript, and deployed it using GitHub Pages
           </p>
           <a
-            href="https://github.com/machine-moon/project6"
+            href="https://github.com/machine-moon/t-website"
             rel="noopener noreferrer"
             target="_blank"
           >
             <button
               class="project-button"
             >
-              View Project
+              GitHub
             </button>
           </a>
         </div>
