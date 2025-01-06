@@ -60,3 +60,4 @@ The `package.json` file includes the following scripts:
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
+```
