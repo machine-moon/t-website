@@ -11,9 +11,9 @@ import project6_img from "../../assets/project6.jpg";
 import project7_img from "../../assets/project7.jpg";
 import project8_img from "../../assets/project8.png";
 // temp images
-import t1 from "../../assets/t1.jpg";
-import t2 from "../../assets/t2.jpg";
-import t3 from "../../assets/t3.jpg";
+//import t1 from "../../assets/t1.jpg";
+//import t2 from "../../assets/t2.jpg";
+//import t3 from "../../assets/t3.jpg";
 
 const ProjectCard = ({ work }) => (
   <div className="project-card">
@@ -22,7 +22,12 @@ const ProjectCard = ({ work }) => (
       <h2>{work.w_name}</h2>
       <p>{work.w_description}</p>
       {work.w_links.map((link, index) => (
-        <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
+        <a
+          key={index}
+          href={link.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="project-button">{link.label}</button>
         </a>
       ))}
@@ -79,9 +84,18 @@ const ProjectData = [
     w_description:
       "A collection of simulators demonstrating process management, scheduling, and system calls.",
     w_links: [
-      { url: "https://github.com/machine-moon/syscall-simulator", label: "Syscall Simulator" },
-      { url: "https://github.com/machine-moon/process-simulator", label: "Process Simulator" },
-      { url: "https://github.com/machine-moon/scheduler-simulator", label: "Scheduler Simulator" },
+      {
+        url: "https://github.com/machine-moon/syscall-simulator",
+        label: "Syscall Simulator",
+      },
+      {
+        url: "https://github.com/machine-moon/process-simulator",
+        label: "Process Simulator",
+      },
+      {
+        url: "https://github.com/machine-moon/scheduler-simulator",
+        label: "Scheduler Simulator",
+      },
     ],
   },
   {
@@ -93,7 +107,6 @@ const ProjectData = [
     w_links: [
       { url: "https://github.com/machine-moon/tdocker", label: "GitHub" },
       { url: "https://github.com/machine-moon/tdocker", label: "Demo (soon)" },
-
     ],
   },
   {
@@ -115,7 +128,6 @@ const ProjectData = [
     w_links: [
       { url: "https://github.com/machine-moon/mdp-jax", label: "GitHub" },
       { url: "https://github.com/machine-moon/mlos", label: "Related Work" },
-
     ],
   },
   {
@@ -125,7 +137,10 @@ const ProjectData = [
     w_description:
       "Demonstrates concurrent task processing using semaphores and shared memory in Unix. Includes C programs simulating Teaching Assistants marking exams with synchronization mechanisms.",
     w_links: [
-      { url: "https://github.com/machine-moon/classical-concurrency", label: "Classical Concurrency" },
+      {
+        url: "https://github.com/machine-moon/classical-concurrency",
+        label: "Classical Concurrency",
+      },
       { url: "https://github.com/machine-moon/ipc", label: "IPC" },
     ],
   },
@@ -158,8 +173,7 @@ const ProjectData = [
     w_links: [
       { url: "https://github.com/machine-moon/t-website", label: "GitHub" },
     ],
-  }
-
+  },
 ];
 
 export default Projects;
