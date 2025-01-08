@@ -466,14 +466,14 @@ exports[`renders App component correctly 1`] = `
           class="project-card"
         >
           <img
-            alt="Markov Decision Process Simulator"
+            alt="DQN RL with JAX"
             src="test-file-stub"
           />
           <div
             class="project-overlay"
           >
             <h2>
-              Markov Decision Process Simulator
+              DQN RL with JAX
             </h2>
             <p>
               A very fast simulator for MDPs using JAX, featuring JIT compilation for rapid prototyping and reinforcement learning with a ready-to-use DQN algorithm
@@ -487,17 +487,6 @@ exports[`renders App component correctly 1`] = `
                 class="project-button"
               >
                 GitHub
-              </button>
-            </a>
-            <a
-              href="https://github.com/machine-moon/mlos"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <button
-                class="project-button"
-              >
-                Related Work
               </button>
             </a>
           </div>

@@ -121,13 +121,13 @@ const ProjectData = [
   },
   {
     w_no: 4,
-    w_name: "Markov Decision Process Simulator",
+    w_name: "DQN RL with JAX",
     w_img: project4_img,
     w_description:
       "A very fast simulator for MDPs using JAX, featuring JIT compilation for rapid prototyping and reinforcement learning with a ready-to-use DQN algorithm",
     w_links: [
       { url: "https://github.com/machine-moon/mdp-jax", label: "GitHub" },
-      { url: "https://github.com/machine-moon/mlos", label: "Related Work" },
+      //{ url: "https://github.com/machine-moon/mlos", label: "Related Work" },
     ],
   },
   {
