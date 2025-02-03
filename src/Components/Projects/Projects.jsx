@@ -10,6 +10,8 @@ import project5_img from "../../assets/project5.jpg";
 import project6_img from "../../assets/project6.jpg";
 import project7_img from "../../assets/project7.jpg";
 import project8_img from "../../assets/project8.png";
+import project9_img from "../../assets/project9.png";
+
 // temp images
 //import t1 from "../../assets/t1.jpg";
 //import t2 from "../../assets/t2.jpg";
@@ -78,7 +80,41 @@ const Projects = () => {
 
 const ProjectData = [
   {
-    w_no: 1,
+    w_name: "Vibe Check",
+    w_img: project9_img,
+    w_description:
+      "Vibecheck is an application that allows users to CRUD tweets and features a gameplay frontend to check-the-vibe based on tweets. It utilizes a Go backend with a RESTful API, Redis caching, and a React frontend.",
+    w_links: [
+      /*{
+        url: "https://github.com/machine-moon/vibecheck",
+        label: "Demo ",
+      }, */
+      { url: "https://github.com/machine-moon/vibecheck", label: "Github" },
+    ],
+  },
+  {
+    w_name: "Inter-Process Communication",
+    w_img: project5_img,
+    w_description:
+      "Demonstrates concurrent task processing using semaphores and shared memory in Unix. Includes C programs simulating Teaching Assistants marking exams with synchronization mechanisms.",
+    w_links: [
+      {
+        url: "https://github.com/machine-moon/classical-concurrency",
+        label: "Classical Concurrency",
+      },
+      { url: "https://github.com/machine-moon/ipc", label: "IPC" },
+    ],
+  },
+  {
+    w_name: "T-Embedded",
+    w_img: project6_img,
+    w_description:
+      "This project contains my embedded work using the MSP432 microcontroller from Texas Instruments. Topics covered include ADC, GPIO, NVIC, UART, interrupts, timers, and concurrency using QNX.",
+    w_links: [
+      { url: "https://github.com/machine-moon/t-embedded", label: "GitHub" },
+    ],
+  },
+  {
     w_name: "Operating System Simulators",
     w_img: project1_img,
     w_description:
@@ -99,7 +135,6 @@ const ProjectData = [
     ],
   },
   {
-    w_no: 2,
     w_name: "T-Docker",
     w_img: project2_img,
     w_description:
@@ -110,7 +145,6 @@ const ProjectData = [
     ],
   },
   {
-    w_no: 3,
     w_name: "T-Suite",
     w_img: project3_img,
     w_description:
@@ -120,7 +154,6 @@ const ProjectData = [
     ],
   },
   {
-    w_no: 4,
     w_name: "DQN RL with JAX",
     w_img: project4_img,
     w_description:
@@ -131,31 +164,6 @@ const ProjectData = [
     ],
   },
   {
-    w_no: 5,
-    w_name: "Inter-Process Communication",
-    w_img: project5_img,
-    w_description:
-      "Demonstrates concurrent task processing using semaphores and shared memory in Unix. Includes C programs simulating Teaching Assistants marking exams with synchronization mechanisms.",
-    w_links: [
-      {
-        url: "https://github.com/machine-moon/classical-concurrency",
-        label: "Classical Concurrency",
-      },
-      { url: "https://github.com/machine-moon/ipc", label: "IPC" },
-    ],
-  },
-  {
-    w_no: 6,
-    w_name: "T-Embedded",
-    w_img: project6_img,
-    w_description:
-      "This project contains my embedded work using the MSP432 microcontroller from Texas Instruments. Topics covered include ADC, GPIO, NVIC, UART, interrupts, timers, and concurrency using QNX.",
-    w_links: [
-      { url: "https://github.com/machine-moon/t-embedded", label: "GitHub" },
-    ],
-  },
-  {
-    w_no: 7,
     w_name: "Scrabble",
     w_img: project7_img,
     w_description:
@@ -165,7 +173,6 @@ const ProjectData = [
     ],
   },
   {
-    w_no: 8,
     w_name: "Personal Portfolio Website",
     w_img: project8_img,
     w_description:
