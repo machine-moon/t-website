@@ -346,6 +346,104 @@ exports[`renders App component correctly 1`] = `
           class="project-card"
         >
           <img
+            alt="Vibe Check"
+            src="test-file-stub"
+          />
+          <div
+            class="project-overlay"
+          >
+            <h2>
+              Vibe Check
+            </h2>
+            <p>
+              Vibecheck is an application that allows users to CRUD tweets and features a gameplay frontend to check-the-vibe based on tweets. It utilizes a Go backend with a RESTful API, Redis caching, and a React frontend.
+            </p>
+            <a
+              href="https://github.com/machine-moon/vibecheck"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button
+                class="project-button"
+              >
+                Github
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="project-card"
+        >
+          <img
+            alt="Inter-Process Communication"
+            src="test-file-stub"
+          />
+          <div
+            class="project-overlay"
+          >
+            <h2>
+              Inter-Process Communication
+            </h2>
+            <p>
+              Demonstrates concurrent task processing using semaphores and shared memory in Unix. Includes C programs simulating Teaching Assistants marking exams with synchronization mechanisms.
+            </p>
+            <a
+              href="https://github.com/machine-moon/classical-concurrency"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button
+                class="project-button"
+              >
+                Classical Concurrency
+              </button>
+            </a>
+            <a
+              href="https://github.com/machine-moon/ipc"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button
+                class="project-button"
+              >
+                IPC
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="project-card"
+        >
+          <img
+            alt="T-Embedded"
+            src="test-file-stub"
+          />
+          <div
+            class="project-overlay"
+          >
+            <h2>
+              T-Embedded
+            </h2>
+            <p>
+              This project contains my embedded work using the MSP432 microcontroller from Texas Instruments. Topics covered include ADC, GPIO, NVIC, UART, interrupts, timers, and concurrency using QNX.
+            </p>
+            <a
+              href="https://github.com/machine-moon/t-embedded"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button
+                class="project-button"
+              >
+                GitHub
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="project-card"
+        >
+          <img
             alt="Operating System Simulators"
             src="test-file-stub"
           />
@@ -480,75 +578,6 @@ exports[`renders App component correctly 1`] = `
             </p>
             <a
               href="https://github.com/machine-moon/mdp-jax"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <button
-                class="project-button"
-              >
-                GitHub
-              </button>
-            </a>
-          </div>
-        </div>
-        <div
-          class="project-card"
-        >
-          <img
-            alt="Inter-Process Communication"
-            src="test-file-stub"
-          />
-          <div
-            class="project-overlay"
-          >
-            <h2>
-              Inter-Process Communication
-            </h2>
-            <p>
-              Demonstrates concurrent task processing using semaphores and shared memory in Unix. Includes C programs simulating Teaching Assistants marking exams with synchronization mechanisms.
-            </p>
-            <a
-              href="https://github.com/machine-moon/classical-concurrency"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <button
-                class="project-button"
-              >
-                Classical Concurrency
-              </button>
-            </a>
-            <a
-              href="https://github.com/machine-moon/ipc"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <button
-                class="project-button"
-              >
-                IPC
-              </button>
-            </a>
-          </div>
-        </div>
-        <div
-          class="project-card"
-        >
-          <img
-            alt="T-Embedded"
-            src="test-file-stub"
-          />
-          <div
-            class="project-overlay"
-          >
-            <h2>
-              T-Embedded
-            </h2>
-            <p>
-              This project contains my embedded work using the MSP432 microcontroller from Texas Instruments. Topics covered include ADC, GPIO, NVIC, UART, interrupts, timers, and concurrency using QNX.
-            </p>
-            <a
-              href="https://github.com/machine-moon/t-embedded"
               rel="noopener noreferrer"
               target="_blank"
             >
