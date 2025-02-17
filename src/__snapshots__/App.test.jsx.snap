@@ -225,6 +225,20 @@ exports[`renders App component correctly 1`] = `
                 class="skill-text"
               >
                 <p>
+                  C/C++
+                </p>
+              </div>
+              <hr
+                style="width: 100%;"
+              />
+            </div>
+            <div
+              class="about-skill"
+            >
+              <div
+                class="skill-text"
+              >
+                <p>
                   Python
                 </p>
               </div>
@@ -239,11 +253,11 @@ exports[`renders App component correctly 1`] = `
                 class="skill-text"
               >
                 <p>
-                  C
+                  Golang
                 </p>
               </div>
               <hr
-                style="width: 100%;"
+                style="width: 80%;"
               />
             </div>
             <div
@@ -253,11 +267,11 @@ exports[`renders App component correctly 1`] = `
                 class="skill-text"
               >
                 <p>
-                  C++
+                  JavaScript
                 </p>
               </div>
               <hr
-                style="width: 80%;"
+                style="width: 70%;"
               />
             </div>
             <div
@@ -272,20 +286,6 @@ exports[`renders App component correctly 1`] = `
               </div>
               <hr
                 style="width: 70%;"
-              />
-            </div>
-            <div
-              class="about-skill"
-            >
-              <div
-                class="skill-text"
-              >
-                <p>
-                  JavaScript
-                </p>
-              </div>
-              <hr
-                style="width: 50%;"
               />
             </div>
           </div>
