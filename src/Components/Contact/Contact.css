@@ -108,7 +108,6 @@
   background: linear-gradient(264deg, #fd267d, #ff7854);
 }
 
-/* Default state: hide icons */
 .nav-mob-open {
   display: none;
 }
