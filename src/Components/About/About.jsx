@@ -26,11 +26,11 @@ const About = () => {
           </div>
           <div className="about-skills">
             {[
+              { name: "C/C++", width: "100%" },
               { name: "Python", width: "100%" },
-              { name: "C", width: "100%" },
-              { name: "C++", width: "80%" },
+              { name: "Golang", width: "80%" },
+              { name: "JavaScript", width: "70%" },
               { name: "Java", width: "70%" },
-              { name: "JavaScript", width: "50%" },
             ].map((skill, index) => (
               <div key={index} className="about-skill">
                 <div className="skill-text">
