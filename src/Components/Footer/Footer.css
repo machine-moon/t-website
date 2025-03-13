@@ -49,3 +49,13 @@
     height: 40px;
   }
 }
+
+.footer-bottom-right a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-bottom-right a:hover {
+  color: #00ff2a;
+  text-decoration: underline;
+}

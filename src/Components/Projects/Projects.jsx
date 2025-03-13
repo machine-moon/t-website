@@ -172,6 +172,7 @@ const ProjectData = [
       { url: "https://github.com/machine-moon/scrabble", label: "GitHub" },
     ],
   },
+  /*
   {
     w_name: "Personal Portfolio Website",
     w_img: project8_img,
@@ -180,7 +181,7 @@ const ProjectData = [
     w_links: [
       { url: "https://github.com/machine-moon/t-website", label: "GitHub" },
     ],
-  },
+  }, */
 ];
 
 export default Projects;

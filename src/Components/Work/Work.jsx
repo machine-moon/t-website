@@ -4,26 +4,31 @@ import PropTypes from "prop-types";
 import work1_img from "../../assets/work1.png";
 import work2_img from "../../assets/work2.jpg";
 import work3_img from "../../assets/work3.png";
+import work4_img from "../../assets/work4.png";
 
 const WorkData = [
+  // latest
   {
-    w_no: 1,
-    w_name: "Bioinformatics Software Developer",
-    w_img: work3_img,
-    w_description: "January 2025 - Current",
+    w_name: "Software Developer",
+    w_img: work4_img,
+    w_description: "May 2025 - December 2025",
   },
   {
-    w_no: 2,
+    w_name: "Bioinformatics Software Developer",
+    w_img: work3_img,
+    w_description: "January 2025 - April 2025",
+  },
+  {
     w_name: "Teaching Assistant - Digital Systems",
     w_img: work2_img,
     w_description: "September 2024 - December 2024",
   },
   {
-    w_no: 3,
     w_name: "Junior Software Developer",
     w_img: work1_img,
     w_description: "April 2024 - August 2024",
   },
+  // oldest
 ];
 
 const WorkCard = ({ work }) => (
