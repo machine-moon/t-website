@@ -292,35 +292,6 @@ exports[`renders Projects component correctly 1`] = `
           </a>
         </div>
       </div>
-      <div
-        class="project-card"
-      >
-        <img
-          alt="Personal Portfolio Website"
-          src="test-file-stub"
-        />
-        <div
-          class="project-overlay"
-        >
-          <h2>
-            Personal Portfolio Website
-          </h2>
-          <p>
-            A personal portfolio website using React.js, html, css, and javascript, and deployed it using GitHub Pages
-          </p>
-          <a
-            href="https://github.com/machine-moon/t-website"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <button
-              class="project-button"
-            >
-              GitHub
-            </button>
-          </a>
-        </div>
-      </div>
     </div>
     <div
       class="mywork-showmore"

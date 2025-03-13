@@ -14,6 +14,18 @@ exports[`renders Footer component correctly 1`] = `
       >
         © 2025 Tarek Ibrahim
       </p>
+      <p
+        class="footer-bottom-right"
+      >
+        <a
+          class="highlight-on-hover"
+          href="https://github.com/machine-moon/t-website"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Check out the website source code on GitHub
+        </a>
+      </p>
       <div
         class="social-icons"
       >

@@ -618,35 +618,6 @@ exports[`renders App component correctly 1`] = `
             </a>
           </div>
         </div>
-        <div
-          class="project-card"
-        >
-          <img
-            alt="Personal Portfolio Website"
-            src="test-file-stub"
-          />
-          <div
-            class="project-overlay"
-          >
-            <h2>
-              Personal Portfolio Website
-            </h2>
-            <p>
-              A personal portfolio website using React.js, html, css, and javascript, and deployed it using GitHub Pages
-            </p>
-            <a
-              href="https://github.com/machine-moon/t-website"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <button
-                class="project-button"
-              >
-                GitHub
-              </button>
-            </a>
-          </div>
-        </div>
       </div>
       <div
         class="mywork-showmore"
@@ -695,6 +666,24 @@ exports[`renders App component correctly 1`] = `
           class="project-card"
         >
           <img
+            alt="Software Developer"
+            src="test-file-stub"
+          />
+          <div
+            class="project-overlay"
+          >
+            <h2>
+              Software Developer
+            </h2>
+            <p>
+              May 2025 - December 2025
+            </p>
+          </div>
+        </div>
+        <div
+          class="project-card"
+        >
+          <img
             alt="Bioinformatics Software Developer"
             src="test-file-stub"
           />
@@ -705,7 +694,7 @@ exports[`renders App component correctly 1`] = `
               Bioinformatics Software Developer
             </h2>
             <p>
-              January 2025 - Current
+              January 2025 - April 2025
             </p>
           </div>
         </div>
@@ -882,6 +871,18 @@ exports[`renders App component correctly 1`] = `
           class="footer-bottom-left"
         >
           © 2025 Tarek Ibrahim
+        </p>
+        <p
+          class="footer-bottom-right"
+        >
+          <a
+            class="highlight-on-hover"
+            href="https://github.com/machine-moon/t-website"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Check out the website source code on GitHub
+          </a>
         </p>
         <div
           class="social-icons"

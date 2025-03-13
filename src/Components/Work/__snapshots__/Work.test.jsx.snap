@@ -20,6 +20,24 @@ exports[`renders Work component correctly 1`] = `
         class="project-card"
       >
         <img
+          alt="Software Developer"
+          src="test-file-stub"
+        />
+        <div
+          class="project-overlay"
+        >
+          <h2>
+            Software Developer
+          </h2>
+          <p>
+            May 2025 - December 2025
+          </p>
+        </div>
+      </div>
+      <div
+        class="project-card"
+      >
+        <img
           alt="Bioinformatics Software Developer"
           src="test-file-stub"
         />
@@ -30,7 +48,7 @@ exports[`renders Work component correctly 1`] = `
             Bioinformatics Software Developer
           </h2>
           <p>
-            January 2025 - Current
+            January 2025 - April 2025
           </p>
         </div>
       </div>
