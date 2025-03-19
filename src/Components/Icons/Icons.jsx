@@ -21,7 +21,7 @@ const socialLinks = [
     icon: <EmailIcon />,
   },
   {
-    href: "https://leetcode.com/u/machine-moon/",
+    href: "https://leetcode.com/u/t-ibra/",
     className: "social-icon leetcode",
     icon: <CodeIcon />,
   },

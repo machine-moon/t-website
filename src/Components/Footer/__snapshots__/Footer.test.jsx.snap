@@ -85,7 +85,7 @@ exports[`renders Footer component correctly 1`] = `
         </a>
         <a
           class="social-icon leetcode"
-          href="https://leetcode.com/u/machine-moon/"
+          href="https://leetcode.com/u/t-ibra/"
           rel="noopener noreferrer"
           target="_blank"
         >
