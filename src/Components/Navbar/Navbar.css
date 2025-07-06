@@ -20,11 +20,8 @@
 .navbar ul li {
   display: inline-block;
   margin: 20px 15px;
-  font-size: 20px;
   transition: background-color 0.2s;
-  padding: 8px 10px;
   box-sizing: border-box;
-  cursor: pointer;
 }
 
 .navbar ul li:hover {
@@ -43,6 +40,33 @@
 
 .navbar img {
   display: none;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+}
+
+.nav-item-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: inherit;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+  text-align: left;
+  display: block;
+}
+
+.nav-item-button:hover {
+  background-color: #40e44861;
+  transition: 0.2s;
 }
 
 @media (max-width: 780px) {

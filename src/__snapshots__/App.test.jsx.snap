@@ -31,53 +31,77 @@ exports[`renders App component correctly 1`] = `
           />
           <li>
             <a
-              class="anchor-link"
+              class="nav-button"
               href="#home"
             >
-              Home
+              <button
+                class="nav-item-button"
+              >
+                Home
+              </button>
             </a>
           </li>
           <li>
             <a
-              class="anchor-link"
+              class="nav-button"
               href="#about"
             >
-              About
+              <button
+                class="nav-item-button"
+              >
+                About
+              </button>
             </a>
           </li>
           <li>
             <a
-              class="anchor-link"
+              class="nav-button"
               href="#projects"
             >
-              Projects
+              <button
+                class="nav-item-button"
+              >
+                Projects
+              </button>
             </a>
           </li>
           <li>
             <a
-              class="anchor-link"
+              class="nav-button"
               href="#work"
             >
-              Work
+              <button
+                class="nav-item-button"
+              >
+                Work
+              </button>
             </a>
           </li>
           <li>
             <a
-              class="anchor-link"
+              class="nav-button"
               href="#contact"
             >
-              Contact
+              <button
+                class="nav-item-button"
+              >
+                Contact
+              </button>
             </a>
           </li>
           <li>
-            <a
-              class="anchor-link"
-              href="/Tarek_Ibrahim_Resume.pdf"
-              rel="noopener noreferrer"
-              target="_blank"
+            <button
+              class="nav-item-button"
             >
-              Resume
-            </a>
+              <a
+                class="anchor-link"
+                href="/Tarek_Ibrahim_Resume.pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Resume
+              </a>
+            </button>
           </li>
         </ul>
       </div>

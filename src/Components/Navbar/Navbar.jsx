@@ -27,12 +27,14 @@ const Navbar = () => {
           {["home", "about", "projects", "work", "contact"].map((section) => (
             <li key={section}>
               <AnchorLink
-                className="anchor-link"
+                className="nav-button"
                 offset={50}
                 href={`#${section}`}
                 onClick={() => setMenuOpen(false)}
               >
-                {section.charAt(0).toUpperCase() + section.slice(1)}
+                <button className="nav-item-button">
+                  {section.charAt(0).toUpperCase() + section.slice(1)}
+                </button>
               </AnchorLink>
             </li>
           ))}
