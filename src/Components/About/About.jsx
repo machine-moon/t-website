@@ -44,8 +44,8 @@ const About = () => {
       </div>
       <div className="about-achievements">
         {[
-          { count: "5+", label: "YEARS PROGRAMMING EXPERIENCE" },
-          { count: "50+", label: "PROJECTS" },
+          { count: "4+", label: "YEARS PROGRAMMING EXPERIENCE" },
+          { count: "30+", label: "PROJECTS" },
           { count: "1+", label: "YEARS WORK EXPERIENCE" },
         ].map((achievement, index) => (
           <div key={index} className="about-achievement">

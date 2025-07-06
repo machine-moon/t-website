@@ -11,6 +11,7 @@ import project6_img from "../../assets/project6.jpg";
 import project7_img from "../../assets/project7.jpg";
 import project8_img from "../../assets/project8.png";
 import project9_img from "../../assets/project9.png";
+import project12_img from "../../assets/project12.png";
 
 // temp images
 //import t1 from "../../assets/t1.jpg";
@@ -80,6 +81,24 @@ const Projects = () => {
 
 const ProjectData = [
   {
+    w_name: "tUnit",
+    w_img: project12_img,
+    w_description:
+      "Write tests that read like specifications, execute like lightning ⚡",
+    w_links: [
+      { url: "https://github.com/machine-moon/tunit", label: "GitHub" },
+    ],
+  },
+  {
+    w_name: "CuMind",
+    w_img: project4_img,
+    w_description:
+      "A JAX-based reinforcement learning framework inspired by Google DeepMind's MuZero. It combines Monte Carlo Tree Search (MCTS) with a learned model to master environments like classic control problems.",
+    w_links: [
+      { url: "https://github.com/machine-moon/CuMind", label: "GitHub" },
+    ],
+  },
+  {
     w_name: "Vibe Check",
     w_img: project9_img,
     w_description:
@@ -92,7 +111,7 @@ const ProjectData = [
       { url: "https://github.com/machine-moon/vibecheck", label: "Github" },
     ],
   },
-  {
+  /*{
     w_name: "Inter-Process Communication",
     w_img: project5_img,
     w_description:
@@ -104,7 +123,7 @@ const ProjectData = [
       },
       { url: "https://github.com/machine-moon/ipc", label: "IPC" },
     ],
-  },
+  }, */
   {
     w_name: "T-Embedded",
     w_img: project6_img,
@@ -144,26 +163,7 @@ const ProjectData = [
       { url: "https://github.com/machine-moon/tdocker", label: "Demo (soon)" },
     ],
   },
-  {
-    w_name: "T-Suite",
-    w_img: project3_img,
-    w_description:
-      "A collection of workflow tools and scripts designed to automate tasks and boost productivity",
-    w_links: [
-      { url: "https://github.com/machine-moon/tsuite", label: "GitHub" },
-    ],
-  },
-  {
-    w_name: "DQN RL with JAX",
-    w_img: project4_img,
-    w_description:
-      "A very fast simulator for MDPs using JAX, featuring JIT compilation for rapid prototyping and reinforcement learning with a ready-to-use DQN algorithm",
-    w_links: [
-      { url: "https://github.com/machine-moon/mdp-jax", label: "GitHub" },
-      //{ url: "https://github.com/machine-moon/mlos", label: "Related Work" },
-    ],
-  },
-  {
+  /*{
     w_name: "Scrabble",
     w_img: project7_img,
     w_description:
@@ -171,7 +171,7 @@ const ProjectData = [
     w_links: [
       { url: "https://github.com/machine-moon/scrabble", label: "GitHub" },
     ],
-  },
+  },*/
   /*
   {
     w_name: "Personal Portfolio Website",
