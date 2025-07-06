@@ -43,7 +43,7 @@ ProjectCard.propTypes = {
       PropTypes.shape({
         url: PropTypes.string.isRequired,
         label: PropTypes.string.isRequired,
-      })
+      }),
     ).isRequired,
   }).isRequired,
 };

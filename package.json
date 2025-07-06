@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "private": true,
   "description": "A frontend project for showcasing a portfolio website.",
   "type": "module",
@@ -11,10 +11,10 @@
     "build": "vite build",
     "test": "jest",
     "test:watch": "jest --watch",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint .",
     "format": "prettier --check .",
     "check": "yarn lint && yarn format && yarn test",
-    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "lint:fix": "eslint . --fix",
     "format:fix": "prettier --write .",
     "fix": "yarn lint:fix && yarn format:fix",
     "predeploy": "yarn fix && yarn build",
@@ -34,6 +34,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-react": "^7.27.1",
+    "@eslint/js": "^9.30.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
