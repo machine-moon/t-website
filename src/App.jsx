@@ -18,33 +18,22 @@ const App = () => {
   }, []);
 
   return (
-    <div className="container" style={{ position: "relative", minHeight: "100vh" }}>
+    <div className="container">
       <video
         ref={videoRef}
         src={videoBg}
         autoPlay
         loop
         muted
-        style={{
-          position: "fixed",
-          top: 0,
-          left: 0,
-          width: "100vw",
-          height: "100vh",
-          objectFit: "cover",
-          zIndex: -1,
-          filter: "brightness(0.4)"
-        }}
+        style={{ filter: "brightness(0.4)" }}
       />
-      <div style={{ position: "relative", zIndex: 1 }}>
-        <Navbar />
-        <Hero />
-        <About />
-        <Projects />
-        <Work />
-        <Contact />
-        <Footer />
-      </div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Work />
+      <Contact />
+      <Footer />
     </div>
   );
 };
