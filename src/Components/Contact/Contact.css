@@ -94,7 +94,7 @@
   border: none;
   color: #fff;
   border-radius: 50px;
-  background: linear-gradient(264deg, #4fed5f, #07a832);
+  background: linear-gradient(264deg, #07a832, #07a832);
   font-size: 22px;
   padding: 20px 60px;
   margin-bottom: 50px;
@@ -105,7 +105,7 @@
 .contact-submit:hover {
   transform: scale(1.1);
   transition: 0.2s;
-  background: linear-gradient(264deg, #084a01, #3fd97a);
+  background: linear-gradient(264deg, #4fed5f, #4fed5f);
 }
 
 .nav-mob-open {
