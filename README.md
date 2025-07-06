@@ -55,8 +55,6 @@ The `package.json` file includes the following scripts:
 - `predeploy`: Run linting, formatting fixes, and build the project before deployment.
 - `deploy`: Deploy the project to GitHub Pages.
 
-
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

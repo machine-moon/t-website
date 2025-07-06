@@ -4,12 +4,8 @@ import "./Projects.css";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import project1_img from "../../assets/project1.jpg";
 import project2_img from "../../assets/project2.jpg";
-import project3_img from "../../assets/project3.png";
 import project4_img from "../../assets/project4.png";
-import project5_img from "../../assets/project5.jpg";
 import project6_img from "../../assets/project6.jpg";
-import project7_img from "../../assets/project7.jpg";
-import project8_img from "../../assets/project8.png";
 import project9_img from "../../assets/project9.png";
 import project12_img from "../../assets/project12.png";
 

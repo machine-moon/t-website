@@ -16,7 +16,7 @@ const Hero = () => {
               strings: [
                 "Hi, welcome to my software engineering portfolio ",
                 "Welcome to the highlight of my journey!",
-                "Step inside my portfolio—no popcorn required "
+                "Step inside my portfolio—no popcorn required ",
               ],
               pauseFor: 6000,
             }}
