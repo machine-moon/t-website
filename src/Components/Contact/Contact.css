@@ -28,7 +28,7 @@
 
 .contact-left h1 {
   font-size: 50px;
-  background: linear-gradient(264deg, #fd267d, #ff7854);
+  background: linear-gradient(264deg, #4fed5f, #07a832);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -94,7 +94,7 @@
   border: none;
   color: #fff;
   border-radius: 50px;
-  background: linear-gradient(264deg, #fd267d, #ff7854);
+  background: linear-gradient(264deg, #4fed5f, #07a832);
   font-size: 22px;
   padding: 20px 60px;
   margin-bottom: 50px;
@@ -105,7 +105,7 @@
 .contact-submit:hover {
   transform: scale(1.1);
   transition: 0.2s;
-  background: linear-gradient(264deg, #fd267d, #ff7854);
+  background: linear-gradient(264deg, #084a01, #3fd97a);
 }
 
 .nav-mob-open {
