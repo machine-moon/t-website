@@ -13,7 +13,11 @@ const Hero = () => {
               autoStart: true,
               loop: true,
               delay: 60,
-              strings: ["Hi, Welcome to my Software Engineering Portfolio 🚀"],
+              strings: [
+                "Hi, welcome to my software engineering portfolio ",
+                "Welcome to the highlight of my journey!",
+                "Step inside my portfolio—no popcorn required "
+              ],
               pauseFor: 6000,
             }}
           />
