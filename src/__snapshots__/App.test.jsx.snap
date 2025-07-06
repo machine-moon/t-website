@@ -298,7 +298,7 @@ exports[`renders App component correctly 1`] = `
           class="about-achievement"
         >
           <h1>
-            5+
+            4+
           </h1>
           <p>
             YEARS PROGRAMMING EXPERIENCE
@@ -309,7 +309,7 @@ exports[`renders App component correctly 1`] = `
           class="about-achievement"
         >
           <h1>
-            50+
+            30+
           </h1>
           <p>
             PROJECTS
@@ -346,6 +346,64 @@ exports[`renders App component correctly 1`] = `
           class="project-card"
         >
           <img
+            alt="tUnit"
+            src="test-file-stub"
+          />
+          <div
+            class="project-overlay"
+          >
+            <h2>
+              tUnit
+            </h2>
+            <p>
+              Write tests that read like specifications, execute like lightning ⚡
+            </p>
+            <a
+              href="https://github.com/machine-moon/tunit"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button
+                class="project-button"
+              >
+                GitHub
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="project-card"
+        >
+          <img
+            alt="CuMind"
+            src="test-file-stub"
+          />
+          <div
+            class="project-overlay"
+          >
+            <h2>
+              CuMind
+            </h2>
+            <p>
+              A JAX-based reinforcement learning framework inspired by Google DeepMind's MuZero. It combines Monte Carlo Tree Search (MCTS) with a learned model to master environments like classic control problems.
+            </p>
+            <a
+              href="https://github.com/machine-moon/CuMind"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button
+                class="project-button"
+              >
+                GitHub
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="project-card"
+        >
+          <img
             alt="Vibe Check"
             src="test-file-stub"
           />
@@ -367,46 +425,6 @@ exports[`renders App component correctly 1`] = `
                 class="project-button"
               >
                 Github
-              </button>
-            </a>
-          </div>
-        </div>
-        <div
-          class="project-card"
-        >
-          <img
-            alt="Inter-Process Communication"
-            src="test-file-stub"
-          />
-          <div
-            class="project-overlay"
-          >
-            <h2>
-              Inter-Process Communication
-            </h2>
-            <p>
-              Demonstrates concurrent task processing using semaphores and shared memory in Unix. Includes C programs simulating Teaching Assistants marking exams with synchronization mechanisms.
-            </p>
-            <a
-              href="https://github.com/machine-moon/classical-concurrency"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <button
-                class="project-button"
-              >
-                Classical Concurrency
-              </button>
-            </a>
-            <a
-              href="https://github.com/machine-moon/ipc"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <button
-                class="project-button"
-              >
-                IPC
               </button>
             </a>
           </div>
@@ -527,93 +545,6 @@ exports[`renders App component correctly 1`] = `
                 class="project-button"
               >
                 Demo (soon)
-              </button>
-            </a>
-          </div>
-        </div>
-        <div
-          class="project-card"
-        >
-          <img
-            alt="T-Suite"
-            src="test-file-stub"
-          />
-          <div
-            class="project-overlay"
-          >
-            <h2>
-              T-Suite
-            </h2>
-            <p>
-              A collection of workflow tools and scripts designed to automate tasks and boost productivity
-            </p>
-            <a
-              href="https://github.com/machine-moon/tsuite"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <button
-                class="project-button"
-              >
-                GitHub
-              </button>
-            </a>
-          </div>
-        </div>
-        <div
-          class="project-card"
-        >
-          <img
-            alt="DQN RL with JAX"
-            src="test-file-stub"
-          />
-          <div
-            class="project-overlay"
-          >
-            <h2>
-              DQN RL with JAX
-            </h2>
-            <p>
-              A very fast simulator for MDPs using JAX, featuring JIT compilation for rapid prototyping and reinforcement learning with a ready-to-use DQN algorithm
-            </p>
-            <a
-              href="https://github.com/machine-moon/mdp-jax"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <button
-                class="project-button"
-              >
-                GitHub
-              </button>
-            </a>
-          </div>
-        </div>
-        <div
-          class="project-card"
-        >
-          <img
-            alt="Scrabble"
-            src="test-file-stub"
-          />
-          <div
-            class="project-overlay"
-          >
-            <h2>
-              Scrabble
-            </h2>
-            <p>
-              A collaborative Java-based Scrabble game utilizing MVC architecture. Features include AI players, custom board configurations, and a timer mode.
-            </p>
-            <a
-              href="https://github.com/machine-moon/scrabble"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <button
-                class="project-button"
-              >
-                GitHub
               </button>
             </a>
           </div>

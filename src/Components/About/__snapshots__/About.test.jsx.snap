@@ -112,7 +112,7 @@ exports[`renders About component correctly 1`] = `
         class="about-achievement"
       >
         <h1>
-          5+
+          4+
         </h1>
         <p>
           YEARS PROGRAMMING EXPERIENCE
@@ -123,7 +123,7 @@ exports[`renders About component correctly 1`] = `
         class="about-achievement"
       >
         <h1>
-          50+
+          30+
         </h1>
         <p>
           PROJECTS
