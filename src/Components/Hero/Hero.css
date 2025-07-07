@@ -50,3 +50,8 @@ p {
 .center-text {
   text-align: center;
 }
+
+.typewriter-text {
+  color: #ffffff;
+  font-size: 18px;
+}

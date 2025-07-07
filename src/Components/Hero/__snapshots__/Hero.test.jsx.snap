@@ -15,7 +15,7 @@ exports[`renders Hero component correctly 1`] = `
         Tarek Ibrahim
       </h1>
       <div
-        class="center-text"
+        class="center-text typewriter-text"
       >
         <div
           class="Typewriter"

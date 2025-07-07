@@ -7,7 +7,7 @@ const Hero = () => {
     <div id="home" className="hero">
       <div className="content">
         <h1 className="center-text">Tarek Ibrahim</h1>
-        <div className="center-text">
+        <div className="center-text typewriter-text">
           <Typewriter
             options={{
               autoStart: true,

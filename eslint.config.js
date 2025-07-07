@@ -42,6 +42,10 @@ export default [
 
       // Custom rules
       "react/jsx-no-target-blank": "off",
+      "react/no-unknown-property": [
+        "error",
+        { ignore: ["webkit-playsinline"] },
+      ],
       "react-refresh/only-export-components": [
         "warn",
         { allowConstantExport: true },
