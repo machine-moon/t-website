@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "version": "2.1.2",
+  "version": "2.2.2",
   "private": true,
   "description": "A frontend project for showcasing a portfolio website.",
   "type": "module",

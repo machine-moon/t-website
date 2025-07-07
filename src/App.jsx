@@ -5,6 +5,7 @@ import About from "./Components/About/About.jsx";
 import videoBg from "./assets/videoback1.mp4"; // moreopts
 import Projects from "./Components/Projects/Projects.jsx";
 import Work from "./Components/Work/Work.jsx";
+import Volunteering from "./Components/Volunteering/Volunteering.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 
@@ -32,6 +33,7 @@ const App = () => {
       <About />
       <Projects />
       <Work />
+      <Volunteering />
       <Contact />
       <Footer />
     </div>

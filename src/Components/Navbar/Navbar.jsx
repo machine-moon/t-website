@@ -24,7 +24,7 @@ const Navbar = () => {
           style={{ right: menuOpen ? "0" : "-160px" }}
         >
           <img src={menuCloseIcon} onClick={toggleMenu} alt="Close Menu" />
-          {["home", "about", "projects", "work", "contact"].map((section) => (
+          {["home", "about", "projects", "work", "volunteering", "contact"].map((section) => (
             <li key={section}>
               <AnchorLink
                 className="nav-button"
