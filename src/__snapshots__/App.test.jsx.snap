@@ -8,6 +8,8 @@ exports[`renders App component correctly 1`] = `
     <video
       autoplay=""
       loop=""
+      playsinline=""
+      preload="auto"
       src="test-file-stub"
       style="filter: brightness(0.4);"
     />

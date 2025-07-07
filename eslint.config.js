@@ -18,6 +18,7 @@ export default [
       },
       globals: {
         ...globals.browser, // This includes FormData and other browser APIs
+        process: "readonly", // Add process for NODE_ENV checks
       },
     },
     settings: {
@@ -39,7 +40,7 @@ export default [
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
 
-      // Your custom rules
+      // Custom rules
       "react/jsx-no-target-blank": "off",
       "react-refresh/only-export-components": [
         "warn",
