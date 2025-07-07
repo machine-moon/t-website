@@ -14,23 +14,23 @@ exports[`renders Hero component correctly 1`] = `
       >
         Tarek Ibrahim
       </h1>
-      <p
-        class="center-text"
-      />
       <div
-        class="Typewriter"
-        data-testid="typewriter-wrapper"
+        class="center-text"
       >
-        <span
-          class="Typewriter__wrapper"
-        />
-        <span
-          class="Typewriter__cursor"
+        <div
+          class="Typewriter"
+          data-testid="typewriter-wrapper"
         >
-          |
-        </span>
+          <span
+            class="Typewriter__wrapper"
+          />
+          <span
+            class="Typewriter__cursor"
+          >
+            |
+          </span>
+        </div>
       </div>
-      <p />
       <div
         class="social-icons"
       >

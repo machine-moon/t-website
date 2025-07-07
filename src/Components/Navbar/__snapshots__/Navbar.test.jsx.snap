@@ -71,6 +71,18 @@ exports[`renders Navbar component correctly 1`] = `
         <li>
           <a
             class="nav-button"
+            href="#volunteering"
+          >
+            <button
+              class="nav-item-button"
+            >
+              Volunteering
+            </button>
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-button"
             href="#contact"
           >
             <button
@@ -81,18 +93,14 @@ exports[`renders Navbar component correctly 1`] = `
           </a>
         </li>
         <li>
-          <button
-            class="nav-item-button"
+          <a
+            class="resume-link"
+            href="/Tarek_Ibrahim_Resume.pdf"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            <a
-              class="anchor-link"
-              href="/Tarek_Ibrahim_Resume.pdf"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Resume
-            </a>
-          </button>
+            Resume
+          </a>
         </li>
       </ul>
     </div>

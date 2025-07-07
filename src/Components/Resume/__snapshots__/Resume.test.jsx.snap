@@ -1,9 +1,9 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`renders Resume component correctly 1`] = `
 <DocumentFragment>
   <a
-    class="anchor-link"
+    class="resume-link"
     href="/Tarek_Ibrahim_Resume.pdf"
     rel="noopener noreferrer"
     target="_blank"

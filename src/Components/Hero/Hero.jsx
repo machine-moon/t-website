@@ -7,7 +7,7 @@ const Hero = () => {
     <div id="home" className="hero">
       <div className="content">
         <h1 className="center-text">Tarek Ibrahim</h1>
-        <p className="center-text">
+        <div className="center-text">
           <Typewriter
             options={{
               autoStart: true,
@@ -21,7 +21,7 @@ const Hero = () => {
               pauseFor: 6000,
             }}
           />
-        </p>
+        </div>
         <Icons />
       </div>
     </div>

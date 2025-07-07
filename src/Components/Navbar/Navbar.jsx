@@ -24,20 +24,22 @@ const Navbar = () => {
           style={{ right: menuOpen ? "0" : "-160px" }}
         >
           <img src={menuCloseIcon} onClick={toggleMenu} alt="Close Menu" />
-          {["home", "about", "projects", "work", "volunteering", "contact"].map((section) => (
-            <li key={section}>
-              <AnchorLink
-                className="nav-button"
-                offset={50}
-                href={`#${section}`}
-                onClick={() => setMenuOpen(false)}
-              >
-                <button className="nav-item-button">
-                  {section.charAt(0).toUpperCase() + section.slice(1)}
-                </button>
-              </AnchorLink>
-            </li>
-          ))}
+          {["home", "about", "projects", "work", "volunteering", "contact"].map(
+            (section) => (
+              <li key={section}>
+                <AnchorLink
+                  className="nav-button"
+                  offset={50}
+                  href={`#${section}`}
+                  onClick={() => setMenuOpen(false)}
+                >
+                  <button className="nav-item-button">
+                    {section.charAt(0).toUpperCase() + section.slice(1)}
+                  </button>
+                </AnchorLink>
+              </li>
+            ),
+          )}
           <li>
             <Resume />
           </li>

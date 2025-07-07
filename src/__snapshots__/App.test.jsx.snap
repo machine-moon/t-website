@@ -80,6 +80,18 @@ exports[`renders App component correctly 1`] = `
           <li>
             <a
               class="nav-button"
+              href="#volunteering"
+            >
+              <button
+                class="nav-item-button"
+              >
+                Volunteering
+              </button>
+            </a>
+          </li>
+          <li>
+            <a
+              class="nav-button"
               href="#contact"
             >
               <button
@@ -90,18 +102,14 @@ exports[`renders App component correctly 1`] = `
             </a>
           </li>
           <li>
-            <button
-              class="nav-item-button"
+            <a
+              class="resume-link"
+              href="/Tarek_Ibrahim_Resume.pdf"
+              rel="noopener noreferrer"
+              target="_blank"
             >
-              <a
-                class="anchor-link"
-                href="/Tarek_Ibrahim_Resume.pdf"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Resume
-              </a>
-            </button>
+              Resume
+            </a>
           </li>
         </ul>
       </div>
@@ -118,23 +126,23 @@ exports[`renders App component correctly 1`] = `
         >
           Tarek Ibrahim
         </h1>
-        <p
-          class="center-text"
-        />
         <div
-          class="Typewriter"
-          data-testid="typewriter-wrapper"
+          class="center-text"
         >
-          <span
-            class="Typewriter__wrapper"
-          />
-          <span
-            class="Typewriter__cursor"
+          <div
+            class="Typewriter"
+            data-testid="typewriter-wrapper"
           >
-            |
-          </span>
+            <span
+              class="Typewriter__wrapper"
+            />
+            <span
+              class="Typewriter__cursor"
+            >
+              |
+            </span>
+          </div>
         </div>
-        <p />
         <div
           class="social-icons"
         >
@@ -687,6 +695,58 @@ exports[`renders App component correctly 1`] = `
             </h2>
             <p>
               April 2024 - August 2024
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="volunteering"
+      id="volunteering"
+    >
+      <div
+        class="volunteering-title"
+      >
+        <h1>
+          Volunteering Experience
+        </h1>
+      </div>
+      <div
+        class="volunteering-container"
+      >
+        <div
+          class="project-card"
+        >
+          <img
+            alt="TPU System Engineer"
+            src="test-file-stub"
+          />
+          <div
+            class="project-overlay"
+          >
+            <h2>
+              TPU System Engineer
+            </h2>
+            <p>
+              August 2024 - May 2025
+            </p>
+          </div>
+        </div>
+        <div
+          class="project-card"
+        >
+          <img
+            alt="VP of Technology & Projects"
+            src="test-file-stub"
+          />
+          <div
+            class="project-overlay"
+          >
+            <h2>
+              VP of Technology & Projects
+            </h2>
+            <p>
+              September 2024 - Present
             </p>
           </div>
         </div>
