@@ -12,13 +12,16 @@ const Hero = () => {
             options={{
               autoStart: true,
               loop: true,
-              delay: 60,
+              delay: 40,
+              deleteSpeed: 25,
+              cursor: '<span class="typewriter-cursor">|</span>',
               strings: [
-                "Hi, welcome to my software engineering portfolio ",
+                "Hi, welcome to my software engineering portfolio!",
                 "Welcome to the highlight of my journey!",
-                "Step inside my portfolio—no popcorn required ",
+                "Step inside my portfolio—no popcorn required.",
+                "Let's build something amazing together!",
               ],
-              pauseFor: 6000,
+              pauseFor: 4000,
             }}
           />
         </div>

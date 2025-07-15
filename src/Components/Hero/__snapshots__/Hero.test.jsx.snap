@@ -27,7 +27,11 @@ exports[`renders Hero component correctly 1`] = `
           <span
             class="Typewriter__cursor"
           >
-            |
+            <span
+              class="typewriter-cursor"
+            >
+              |
+            </span>
           </span>
         </div>
       </div>
