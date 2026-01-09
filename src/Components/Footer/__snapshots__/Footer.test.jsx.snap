@@ -12,7 +12,7 @@ exports[`renders Footer component correctly 1`] = `
       <p
         class="footer-bottom-left"
       >
-        © 2025 Tarek Ibrahim
+        © 2026 Tarek Ibrahim
       </p>
       <p
         class="footer-bottom-right"
